@@ -4,19 +4,19 @@
 // 782 -> 8
 // 918 -> 1
 
-// Console.WriteLine ("Введите трехзначное число");
-// int num = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine ("Введите трехзначное число");
+int num = Convert.ToInt32(Console.ReadLine());
 
-// if (num >= 100 && num <= 999)
-// {
-//     num = num / 10 % 10;
+if (num >= 100 && num <= 999)
+{
+    num = num / 10 % 10;
 
-//     Console.WriteLine ("Второе число " + num);
-// }
-// else
-// {
-//     Console.WriteLine ("Вы ввели не трехзначное число");
-// }
+    Console.WriteLine ("Второе число " + num);
+}
+else
+{
+    Console.WriteLine ("Вы ввели не трехзначное число");
+}
 
 //-------------------РЕШЕНИЕ 2 ЕСЛИ ВСЕ В STING ПЕРЕВОДИТЬ-----------------------------
 
