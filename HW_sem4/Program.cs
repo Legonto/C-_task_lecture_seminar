@@ -16,6 +16,14 @@ while (i < B)
 } 
 Console.WriteLine(result);
 
+
+
+
+// int A = Convert.ToInt32(Console.ReadLine());
+// int B = Convert.ToInt32(Console.ReadLine());
+// int p = Math.Pow(A,B);
+// Console.WriteLine(p);
+
 // не получилось функцией сделать, ошибку выдавало, потом попробую
 //------------------------------------------------------------
 
