@@ -37,6 +37,6 @@
                 }
             }
         }
-        Console.WriteLine(resul1.ToString() + "Сумма кратных чисел");
-        Console.WriteLine(resul2.ToString() + "Сумма не кратных чисел");
+        Console.WriteLine(resul1.ToString() + " - сумма кратных чисел");
+        Console.WriteLine(resul2.ToString() + " - сумма не кратных чисел");
     
