@@ -29,12 +29,23 @@ class Hero
         {"Эмпатия",0},
         {"Красноречие",0},
     };
-
 }
-
-
-
-
+class InRase
+{
+    public string Name;
+    public string Ability;
+    public string Bonus;
+    public string Side;
+    Dictionary<string,int> Skills = new Dictionary<string, int>()
+    {
+        {"Сила",0},
+        {"Удача",0},
+        {"Ловкость",0},
+        {"Харизма",0},
+        {"Эмпатия",0},
+        {"Красноречие",0},
+    };
+}
 class Program 
 {
     static void SelectRase(Hero myHero)
